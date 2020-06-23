@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".WelcomeActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center">
+
+        <ImageView
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:id="@+id/imageview"
+            android:layout_marginRight="10dp"
+            android:layout_marginTop="10dp">
+
+        </ImageView>
+
+    </LinearLayout>
+
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Get Image"
+        android:id="@+id/getimage"
+        android:layout_gravity="center"
+        android:layout_marginTop="15dp">
+
+    </Button>
+
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/username"
+        android:text=""
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="10dp">
+
+    </TextView>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/email"
+        android:text=""
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="10dp">
+
+    </TextView>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/mobilenumber"
+        android:text=""
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="10dp">
+
+    </TextView>
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/city"
+        android:text=""
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="10dp">
+
+    </TextView>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/textview"
+        android:text="Email not verified"
+        android:layout_gravity="center"
+        android:layout_marginTop="10dp"
+        android:textSize="20dp"
+        android:visibility="invisible">
+
+    </TextView>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Verify"
+        android:id="@+id/verifyid"
+        android:layout_gravity="center"
+        android:layout_marginTop="15dp"
+        android:visibility="invisible">
+
+    </Button>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Reset password"
+        android:id="@+id/resetid"
+        android:layout_gravity="center"
+        android:layout_marginTop="10dp">
+
+    </Button>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Change Profile"
+        android:id="@+id/profileid"
+        android:layout_gravity="center"
+        android:layout_marginTop="10dp">
+
+    </Button>
+
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Edit Profile"
+        android:id="@+id/editprofileid"
+        android:layout_gravity="center"
+        android:layout_marginTop="10dp">
+
+    </Button>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/logout"
+        android:layout_marginTop="10dp"
+        android:text="Logout"
+        android:layout_gravity="center">
+
+    </Button>
+
+</LinearLayout>
